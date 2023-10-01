@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Landing Page</title>
+    
+<link rel="stylesheet" href="./The Landing Page_files/stylesheet.css"></head>
+<body>
+    <div class="section">
+        <!-- the upper section -->
+        <!-- 1 header section  -->
+        <div class="section1">
+        <div class=" header">
+            <!-- two items in the header 1 logo 2 three links -->
+            <div> Header logo 
+                </div> 
+            <!-- item 1 -->
+            <div class="hdr-rt-lnk">
+            <!-- item 2 -->
+                <div> <a href="http://127.0.0.1:5500/#">header link 1</a></div>
+                <div> <a href="http://127.0.0.1:5500/#">header link 2</a></div>
+                <div> <a href="http://127.0.0.1:5500/#">header link 3</a></div>
+                </div>
+            </div>
+        
+
+        <!-- 2 content section -->
+        <div class="txt-btn-img-sc1">
+
+        <div class="txt-btn">
+            <div><span>This website is awesome</span>this website has 
+            some subtext that goes under the main titile. it's 
+            smaller font and the color is lower contrast.
+            </div>
+
+            <div> <button> sign up </button></div>
+            </div>
+
+            <div><img src="http://127.0.0.1:5500/" alt="placeholder for an image"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+    </div>
+    
+    <div class="section section2">
+        <!-- the 2nd section two items --> 
+        <!-- item 1 -->
+        <div>some random information</div>
+
+        <div>
+            <!-- item 2 -->
+            <!-- four image boxes -->
+            <div><img src="http://127.0.0.1:5500/" alt="placeholder for an image">some random 
+                text below the boxes</div>
+            <div><img src="http://127.0.0.1:5500/" alt="placeholder for an image">some random 
+                text below the boxes</div>
+            <div><img src="http://127.0.0.1:5500/" alt="placeholder for an image">some random 
+                text below the boxes</div>
+            <div><img src="http://127.0.0.1:5500/" alt="placeholder for an image">some random 
+                text below the boxes</div>
+            </div>
+
+    </div>
+    
+    <div class="section section3">
+        <!-- the 3rd section -->
+        <div>This is an inspiring quote, or a testimonial from a customer. 
+            Maybe it's just filling up space, or maybe people will actually
+            read it. Who knows? All I know is that it looks nice.</div>
+        </div>
+    
+    <div class="section section4">
+        
+        <!-- the 4th section -->
+
+        <div>
+            <!-- this box must be centered (the contents in it must be divideed) -->
+
+            <div>call to action it's time! <br> </div>
+
+            <div> <button> sign up </button></div>
+        </div>
+
+    </div>
+    
+    
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

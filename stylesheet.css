@@ -9,7 +9,7 @@ body {
     display: flex;
     width: 90svw;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
 }
 
 .section {
@@ -18,6 +18,8 @@ body {
     border-style: solid;
     border-color: #dd00ff;
     height: 50svh;
+    padding: 30px;
+    display: flex;
 }
 .header{
     display: flex;
@@ -27,8 +29,84 @@ body {
 .hdr-rt-lnk{
     display: flex;
     gap: 10px;
+    
+
 }
+
+.hdr-rt-lnk div a {
+
+    font-size: 18px;
+    color:#e5e7eb
+}
+
+
 
 .txt-btn-img-sc1{
     display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section1 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* gap: 20px; */
+}
+
+.img-sec-1 {
+    max-width: 200px;
+    max-height: 100%;
+}
+
+.s1, .footer{
+    
+    background: #1f2937;
+}
+
+#hdr-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.asm span{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.asm{
+    color: #f9faf8;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.btn1, .btn2{
+
+border-radius: 4px ;
+
+}
+
+
+#f4imgs {
+    display: flex;
+
+}
+
+.s4, .s3{
+    justify-content: space-around;
+}
+
+.footer{
+    height: 1svh;
+    justify-content: space-around;
 }
