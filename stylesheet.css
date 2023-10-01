@@ -1,8 +1,15 @@
 
+
+
+
 body {
     color: antiquewhite;
     border-style: solid;
     border-color: blue;
+    display: flex;
+    width: 90svw;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .section {
@@ -10,4 +17,18 @@ body {
     color: #8fed96;
     border-style: solid;
     border-color: #dd00ff;
+    height: 50svh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hdr-rt-lnk{
+    display: flex;
+    gap: 10px;
+}
+
+.txt-btn-img-sc1{
+    display: flex;
 }

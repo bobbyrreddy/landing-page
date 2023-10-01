@@ -1,0 +1,9 @@
+{
+    "prettier.bracketSameLine": true,
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "prettier.proseWrap": "always",
+    "prettier.tabWidth": 3,
+    "prettier.withNodeModules": true,
+    "prettier.singleQuote": true,
+    "prettier.singleAttributePerLine": true
+}
